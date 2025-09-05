@@ -2,7 +2,7 @@
 
 Selamat datang di RevoFun! Ini adalah landing page interaktif yang menjadi portal untuk memainkan 10 game browser berbasis JavaScript. Proyek ini berfokus pada pengalaman UI/UX, manipulasi DOM, serta logika game sederhana yang menyenangkan.
 
-**Demo Langsung:** [https://revou-fsse-jun25.github.io/milestone-1-whtrianto/]
+**Demo Langsung:** [https://revou-fsse-jun25.github.io/milestone-2-whtrianto/]
 
 ## 📜 Gambaran Umum Proyek
 

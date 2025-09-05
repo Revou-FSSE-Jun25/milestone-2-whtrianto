@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoFun - Mainkan Game Seru!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="audio-controls.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>RevoFun</h1>
+            <p>Destinasi Utama untuk Game Browser Sederhana & Menghibur</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="main-header">
+            <div class="floating-icons">
+                <div class="floating-icon">🎮</div>
+                <div class="floating-icon">🎯</div>
+                <div class="floating-icon">🏆</div>
+                <div class="floating-icon">⭐</div>
+            </div>
+            <h2 class="main-title">
+                <span class="title-text">Pilih Game Favoritmu</span>
+                <div class="title-underline"></div>
+            </h2>
+            <p class="main-subtitle">10 Game Seru yang Siap Dimainkan!</p>
+        </div>
+
+        <div class="game-list">
+            <!-- Game Card 1: Number Guessing -->
+            <div class="game-card" data-game="number">
+                <div class="card-glow"></div>
+                <div class="card-icon">🔢</div>
+                <h3>Tebak Angka</h3>
+                <p>Uji keberuntungan dan logikamu! Komputer memilih angka rahasia, bisakah kamu menebaknya dalam 5 percobaan?</p>
+                <div class="card-features">
+                    <span class="feature">🎲 Random</span>
+                    <span class="feature">🧠 Logika</span>
+                    <span class="feature">⚡ Cepat</span>
+                </div>
+                <a href="games/number-guessing.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 2: Rock Paper Scissors -->
+            <div class="game-card" data-game="rps">
+                <div class="card-glow"></div>
+                <div class="card-icon">✂️</div>
+                <h3>Batu, Kertas, Gunting</h3>
+                <p>Game klasik sepanjang masa. Kalahkan komputer dalam pertarungan strategi dan keberuntungan. Skor tertinggimu akan disimpan!</p>
+                <div class="card-features">
+                    <span class="feature">🏆 Skor</span>
+                    <span class="feature">🎯 Strategi</span>
+                    <span class="feature">💾 Simpan</span>
+                </div>
+                <a href="games/rock-paper-scissors.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 3: Memory Game -->
+            <div class="game-card" data-game="memory">
+                <div class="card-glow"></div>
+                <div class="card-icon">🧠</div>
+                <h3>Memory Card</h3>
+                <p>Latih ingatanmu dengan mencari semua pasangan kartu yang cocok. Semakin cepat, semakin baik!</p>
+                <div class="card-features">
+                    <span class="feature">🧠 Ingatan</span>
+                    <span class="feature">⏱️ Waktu</span>
+                    <span class="feature">🎴 Kartu</span>
+                </div>
+                <a href="games/memory-game.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 4: Snake Game -->
+            <div class="game-card" data-game="snake">
+                <div class="card-glow"></div>
+                <div class="card-icon">🐍</div>
+                <h3>Snake Game</h3>
+                <p>Game klasik arcade! Kendalikan ular dan makan makanan untuk tumbuh lebih panjang. Hindari dinding dan tubuhmu sendiri!</p>
+                <div class="card-features">
+                    <span class="feature">🎮 Arcade</span>
+                    <span class="feature">🍎 Makanan</span>
+                    <span class="feature">📈 Skor</span>
+                </div>
+                <a href="games/snake-game.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 5: Tic Tac Toe -->
+            <div class="game-card" data-game="tictactoe">
+                <div class="card-glow"></div>
+                <div class="card-icon">❌⭕</div>
+                <h3>Tic Tac Toe</h3>
+                <p>Game strategi klasik! Mainkan melawan teman atau komputer. Siapa yang bisa membuat garis 3 simbol terlebih dahulu?</p>
+                <div class="card-features">
+                    <span class="feature">🎮 Multiplayer</span>
+                    <span class="feature">🎯 Strategi</span>
+                    <span class="feature">⚔️ Duel</span>
+                </div>
+                <a href="games/tic-tac-toe.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 6: Color Match -->
+            <div class="game-card" data-game="color">
+                <div class="card-glow"></div>
+                <div class="card-icon">🎨</div>
+                <h3>Color Match</h3>
+                <p>Uji refleksmu! Klik warna yang sama dengan yang ditampilkan. Semakin cepat, semakin tinggi skormu!</p>
+                <div class="card-features">
+                    <span class="feature">⚡ Refleks</span>
+                    <span class="feature">🎨 Warna</span>
+                    <span class="feature">🏃 Cepat</span>
+                </div>
+                <a href="games/color-match.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 7: Cyber Bird -->
+            <div class="game-card" data-game="cyberbird">
+                <div class="card-glow"></div>
+                <div class="card-icon">🐦</div>
+                <h3>Cyber Bird</h3>
+                <p>Game terbang cyberpunk! Hindari pipa dan rintangan dengan kontrol yang smooth. Terbang setinggi mungkin!</p>
+                <div class="card-features">
+                    <span class="feature">🦅 Terbang</span>
+                    <span class="feature">🎯 Hindari</span>
+                    <span class="feature">🏆 Skor</span>
+                </div>
+                <a href="games/flappy-bird.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 8: 2048 Puzzle -->
+            <div class="game-card" data-game="puzzle">
+                <div class="card-glow"></div>
+                <div class="card-icon">🧩</div>
+                <h3>2048 Puzzle</h3>
+                <p>Game puzzle matematika yang adiktif! Gabungkan tile yang sama untuk mencapai 2048. Fitur undo tersedia!</p>
+                <div class="card-features">
+                    <span class="feature">🧮 Matematika</span>
+                    <span class="feature">↩️ Undo</span>
+                    <span class="feature">🎯 Strategi</span>
+                </div>
+                <a href="games/2048-puzzle.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 9: Cyber Breakout -->
+            <div class="game-card" data-game="breakout">
+                <div class="card-glow"></div>
+                <div class="card-icon">🏓</div>
+                <h3>Cyber Breakout</h3>
+                <p>Game arcade klasik dengan twist modern! Hancurkan blok dengan bola dan paddle. Power-ups menanti!</p>
+                <div class="card-features">
+                    <span class="feature">🏓 Arcade</span>
+                    <span class="feature">⚡ Power-ups</span>
+                    <span class="feature">📈 Level</span>
+                </div>
+                <a href="games/breakout.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Game Card 10: Balap Mobil -->
+            <div class="game-card" data-game="carrace">
+                <div class="card-glow"></div>
+                <div class="card-icon">🚘</div>
+                <h3>Balap Mobil</h3>
+                <p>Hindari mobil lawan di jalan raya! Kumpulkan power-up, tingkatkan kecepatan, dan capai skor tertinggi!</p>
+                <div class="card-features">
+                    <span class="feature">🏎️ Kecepatan</span>
+                    <span class="feature">🎯 Hindari</span>
+                    <span class="feature">🏆 Skor</span>
+                </div>
+                <a href="games/balap-mobil.html" class="btn">
+                    <span class="btn-text">Mainkan Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="main-footer">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Game Seru</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24</div>
+                    <div class="stat-label">Jam Bermain Kapan Saja</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Gratis</div>
+                </div>
+            </div>
+            <div class="cta-section">
+                <h3>Mau Game Lainnya?</h3>
+                <p>Tunggu unggahan game selanjutnya!</p>
+                <div class="coming-soon">
+                    <span class="coming-soon-text">Coming Soon...</span>
+                    <div class="pulse-dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://portofolio-wahyu-trianto.vercel.app/" style="text-decoration: none; color: white;">
+            <p class="glow-copyright">&copy; 2025 Wahyu Trianto.</p>
+        </a>
+    </footer>
+
+    <!-- Audio Manager Scripts -->
+    <script src="js/audio-manager-with-demo.js"></script>
+    <!-- <script src="js/audio-controls.js"></script> -->
+    <script src="js/audio-test-helper.js"></script>
+    <script src="js/audio-integration-helper.js"></script>
+    <script src="js/quick-audio-test.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
